@@ -1,0 +1,17 @@
+# Downloaded model files (re-created by setup_models.py)
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Whisper model cache (stored in HuggingFace cache dir, not here)
+# Ollama models (managed by Ollama itself)
+
+# OS
+.DS_Store
+Thumbs.db
