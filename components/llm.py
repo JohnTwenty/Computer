@@ -46,6 +46,7 @@ class LLMClient:
                 *messages,
             ],
             "stream": True,
+            "keep_alive": -1,
         }
         url = f"{self.base_url}/api/chat"
 
